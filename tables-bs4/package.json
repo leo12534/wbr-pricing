@@ -1,0 +1,24 @@
+{
+  "name": "bs4-pricing-updated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --no-source-maps index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-wbr/bs4-pricing-updated.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leo-wbr/bs4-pricing-updated/issues"
+  },
+  "homepage": "https://github.com/leo-wbr/bs4-pricing-updated#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
