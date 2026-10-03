@@ -19,9 +19,9 @@
           getAdminGeneratedPackageRow.style.flexBasis = '50%';
         },
         twoCustomPackages() {
-          getCustomPackagesRow.style.flexBasis = '66%';
-          getCustomPackages.forEach((package) => package.style.flexBasis = '49%')
-          getAdminGeneratedPackageRow.style.flexBasis = '33%';
+          getCustomPackagesRow.style.flexBasis = '70%';
+          getCustomPackages.forEach((package) => package.style.flexBasis = '48%')
+          getAdminGeneratedPackageRow.style.flexBasis = '30%';
         },
         threeCustomPackages() {
           getCustomPackagesRow.style.flexBasis = '100%';
@@ -36,7 +36,7 @@
 
     const ifElsePositioning = function (e, getAdminGeneratedPackageRow, rules) {
       if (e.currentTarget.innerWidth >= 767) {
-        if (getCustomPackages.length == 1) {
+        if (getCustomPackages.length == 1 ) {
           rules.oneCustomPackage()
         } else if (getCustomPackages.length == 2) {
           rules.twoCustomPackages()

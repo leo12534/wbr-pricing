@@ -41,7 +41,7 @@
 .tier_group_1 > .tier_row > .col-md-12, .custom-tier-item > .tier_row > .col-md-12 {display:flex;}
 .tier_group_1 > .tier_row > .col-md-12 .packageitem, .custom-tier-item > .tier_row > .col-md-12 .package_custom {flex: 1;display: flex;flex-flow: column wrap; justify-content: space-between;}
 
-	.container > .row:not(#custom-tier-row) > .tier {
+.container > .row:not(#custom-tier-row) > .tier {
 		margin: 0;
 		padding: 0;
 		flex: 0 0 100%;
@@ -49,6 +49,8 @@
 	}
 }
 
+
+/* STYLING AND TYPOGRAPHY FOR CUSTOM PACKAGES */
 /* Custom Package Hover */
 a .package_title,
 a .srs_description,
